@@ -1,6 +1,9 @@
-.front {
+
+li {
+    text-align: left;
+}.front {
     font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
+    color: #444444;
     text-shadow: 0px 0px 5px #888888;
     font-size: 60px;
     text-align: center;
@@ -12,9 +15,12 @@
     box-shadow: 0px 0px 25px #cccccc;
     width: 60%;
 }
+.steak {
+    width: 50%
+}
 .note {
     font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
+    color: #444444;
     text-shadow: 0px 0px 5px #aaaaaa;
     font-size: 18px;
     text-align: center;
@@ -25,5 +31,40 @@
     text-shadow: 0px 0px 5px #aaaaaa;
     font-size: 22px;
     line-height: 80px;
+    color: #444444;
+}
+.adjustment {
+    overflow-x: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 120%;
+    width: 600px;
+    display: inline-block;
+    text-align: justify;
+}
+.list {
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 120%;
+    width: 35em;
+    display: inline-block;
+    text-align: justify;
+}
+.philly {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    line-height: 10px;
+    text-shadow: 0px 0px 5px #888888;
+}
+.philly-sub {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.returnh a:visited {
     color: #ffffff;
+}
+#notb {
+    color: blue;
 }
